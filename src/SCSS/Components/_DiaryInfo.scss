@@ -1,0 +1,40 @@
+.diaryInfo {
+    @include flex(flex, column, null, center);
+
+    &__heading {
+        @include flex(flex, null, null, center);
+        font-size: 1.6rem;
+        margin-bottom: 4rem;
+    }
+
+    &__image {
+        width: 220px;
+        margin-left: 3rem;
+    }
+}
+
+@media(max-width:950px) {
+    .diaryInfo {
+        &__heading {
+            font-size: 1.2rem;
+        }
+        
+        &__image {
+            width: 170px;
+        }
+    }
+ 
+}
+
+@media(max-width:450px) {
+    .diaryInfo {
+
+        &__heading {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+        &__image {
+            width: 140px;
+        }
+    }
+}

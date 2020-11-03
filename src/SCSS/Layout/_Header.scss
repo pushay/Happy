@@ -1,0 +1,48 @@
+.header {
+    @include flex(flex, null, center, center);
+    padding: 1.5rem 4rem;
+    width: 100%vh;
+    box-shadow: 3px 3px 6px $color-text;
+    position: relative;
+
+    &__logo {
+
+        &--heading {
+            font-size:2.4rem;
+            color:$primiary-color;
+            text-shadow: 2px 2px 2px $color-text;
+            margin-right:4rem;
+            text-decoration: none;
+            font-family: 'Grandstander', cursive;
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header {
+        &__logo {
+            width: 150px;
+            margin-right: 1.5rem;
+
+            &--heading {
+                margin-right: 0rem;
+            }
+        }
+    }
+    
+  }
+
+  @media screen and (max-width: 530px) {
+    .header {
+        padding: 1.5rem 2rem;
+
+        &__logo{
+            margin-right: 0.5rem;
+
+            &--heading {
+                font-size: 2rem;
+            }
+        }
+    }
+    
+  }

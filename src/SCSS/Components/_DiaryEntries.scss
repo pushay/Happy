@@ -1,0 +1,34 @@
+.diaryEntries {
+    padding: 2rem 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__heading {
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+    }
+
+}
+
+@media(max-width:950px) {
+    .diaryEntries {
+        padding: 2rem;
+        &__heading {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+ 
+}
+
+
+@media(max-width:450px) {
+    .diaryEntries {
+
+        &__heading {
+            font-size: 1.6rem;
+        }
+    }
+ 
+}

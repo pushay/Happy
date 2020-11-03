@@ -1,0 +1,26 @@
+ 
+ $primiary-color:#f8a706;
+ $color-text: rgb(61, 56, 56);
+
+ 
+@mixin build($width, $height, $border-radius, $background-color){
+    width:$width;
+    height:$height;
+    border-radius: $border-radius;
+    background-color: $background-color;
+}
+
+@mixin positioning($position, $top, $right, $bottom, $left) {
+    position: $position;
+    top:$top;
+    right:$right;
+    bottom:$bottom;
+    left: $left;  
+}
+
+@mixin flex($display, $flex-direction, $justify-content, $align-items){
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}

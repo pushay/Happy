@@ -1,0 +1,32 @@
+.diaryNew {
+    padding: 2rem 5rem;
+    @include flex(flex, column, null, center);
+
+    &__heading {
+        margin-bottom: 4rem;
+        font-size: 2.5rem;
+    }
+
+    &__time {
+        @include flex(flex, column, space-between, center);
+        width: 500px;
+        margin-bottom: 4rem;
+    }
+}
+
+@media(max-width:850px) {
+    .diaryNew {
+        padding: 2rem;
+
+        &__time {
+            height: 130px;
+            width: 250px;
+        }
+
+        &__heading {
+            font-size: 2rem;
+        }
+    }
+    
+  }
+

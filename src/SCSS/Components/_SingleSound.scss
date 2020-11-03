@@ -1,0 +1,6 @@
+.singleSound {
+    @include build(55px, 55px, 60px, white);
+    @include flex(flex, null, center, center);
+        box-shadow: 2px 2px 4px rgb(44, 42, 42);
+
+}

@@ -2,19 +2,35 @@
   "name": "happy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://pushay.github.io/Happy",
   "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/pickers": "^3.2.10",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "date-fns": "^2.0.0-beta.5",
+    "firebase": "^7.23.0",
+    "moment": "^2.29.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile-sass": "node-sass src/styles.scss src/css/style.css --watch",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss",
+    "sass": "node-sass -w sass -o public/css"
   },
   "eslintConfig": {
     "extends": "react-app"

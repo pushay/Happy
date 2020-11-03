@@ -1,0 +1,21 @@
+.customLink {
+    
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Grandstander', cursive;
+
+        &:hover {
+            color: $primiary-color;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .customLink {
+        @include flex(flex, null, center, null);
+        margin-left: 1rem;
+    }
+  }
+
+
