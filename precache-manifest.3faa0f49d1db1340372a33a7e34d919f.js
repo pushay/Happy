@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9662120f27f84ed65886a53db5d9a4c3",
+    "revision": "7c7b3082e56e496defc8335ba43c4109",
     "url": "/Happy/index.html"
   },
   {
-    "revision": "4947f7062587712de34c",
-    "url": "/Happy/static/css/main.6847cb8b.chunk.css"
+    "revision": "0b72ec00cd343f19bc97",
+    "url": "/Happy/static/css/main.85e9bfc8.chunk.css"
   },
   {
     "revision": "7223b931cf6885e11345",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Happy/static/js/2.616a2567.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4947f7062587712de34c",
-    "url": "/Happy/static/js/main.722d8434.chunk.js"
+    "revision": "0b72ec00cd343f19bc97",
+    "url": "/Happy/static/js/main.5f498bbc.chunk.js"
   },
   {
     "revision": "fc3333a571b32952f9f7",
